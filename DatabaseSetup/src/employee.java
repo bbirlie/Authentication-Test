@@ -1,0 +1,35 @@
+public class employee {
+    private int employeeId;
+    private String name;
+    private String password;
+
+    public employee(int employeeId, String name, String password) {
+        this.employeeId = employeeId;
+        this.name = name;
+        this.password = password;
+    }
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
